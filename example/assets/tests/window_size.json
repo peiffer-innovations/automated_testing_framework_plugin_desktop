@@ -1,0 +1,22 @@
+{
+	"active": true,
+	"name": "Window Size",
+	"suiteName": "Dekstop",
+	"steps": [
+		{
+			"id": "set_window_size",
+			"values": {
+				"height": 500,
+				"width": 500
+			}
+		},
+		{
+			"id": "assert_window_size",
+			"values": {
+				"height": 500,
+				"width": 500
+			}
+		}
+	],
+	"version": 1
+}
