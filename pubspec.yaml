@@ -12,8 +12,8 @@ dependencies:
   desktop_window: ^0.4.0
   flutter:
     sdk: flutter
-  json_class: ^2.0.0+2
-  static_translations: ^2.0.2+2
+  json_class: ^2.1.2+1
+  static_translations: ^2.1.0
 
 # dependency_overrides:
 #   automated_testing_framework:
