@@ -1,29 +1,23 @@
-name: automated_testing_framework_plugin_desktop
-description: Library to use provide desktop related functions.
-homepage: https://github.com/peiffer-innovations/automated_testing_framework_plugin_desktop
+name: 'automated_testing_framework_plugin_desktop'
+description: 'Library to use provide desktop related functions.'
+homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_desktop'
+version: '2.0.0+1'
 
-version: 2.0.0
+environment: 
+  sdk: '>=2.17.0 <3.0.0'
 
-environment:
-  sdk: ">=2.17.0 <3.0.0"
+dependencies: 
+  automated_testing_framework: '^4.0.1+1'
+  desktop_window: '^0.4.0'
+  flutter: 
+    sdk: 'flutter'
+  json_class: '^2.1.2+4'
+  static_translations: '^2.1.1'
 
-dependencies:
-  automated_testing_framework: ^4.0.0
-  desktop_window: ^0.4.0
-  flutter:
-    sdk: flutter
-  json_class: ^2.1.2+4
-  static_translations: ^2.1.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: 'flutter'
 
-# dependency_overrides:
-#   automated_testing_framework:
-#     path: ../automated_testing_framework
-#   automated_testing_framework_models:
-#     path: ../automated_testing_framework_models
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-flutter:
+flutter: 
   uses-material-design: true
