@@ -1,19 +1,19 @@
 name: 'example'
 description: "Example application for the automated testing framework's desktop plugin"
 publish_to: 'none'
-version: '1.0.0+15'
+version: '1.0.0+16'
 
 environment: 
   sdk: '>=2.17.0 <3.0.0'
 
 dependencies: 
-  automated_testing_framework: '^4.0.7+3'
+  automated_testing_framework: '^4.0.7+4'
   automated_testing_framework_example: '^2.2.5'
   automated_testing_framework_plugin_desktop: 
     path: '..'
   flutter: 
     sdk: 'flutter'
-  logging: '^1.0.2'
+  logging: '^1.1.0'
 
 dev_dependencies: 
   flutter_test: 
