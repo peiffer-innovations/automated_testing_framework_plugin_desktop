@@ -8,7 +8,7 @@ class TestDesktopHelper {
     (registry ?? TestStepRegistry.instance).registerCustomSteps([
       TestStepBuilder(
         availableTestStep: AvailableTestStep(
-          form: AssertWindowSizeForm(),
+          form: const AssertWindowSizeForm(),
           help: TestDesktopTranslations.atf_desktop_help_assert_window_size,
           id: AssertWindowSizeStep.id,
           keys: const {'height', 'width'},
@@ -24,7 +24,7 @@ class TestDesktopHelper {
       ),
       TestStepBuilder(
         availableTestStep: AvailableTestStep(
-          form: SetWindowSizeForm(),
+          form: const SetWindowSizeForm(),
           help: TestDesktopTranslations.atf_desktop_help_set_window_size,
           id: SetWindowSizeStep.id,
           keys: const {'height', 'width'},

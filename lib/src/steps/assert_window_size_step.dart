@@ -59,10 +59,10 @@ class AssertWindowSizeStep extends TestRunnerStep {
     required TestReport report,
     required TestController tester,
   }) async {
-    var height = JsonClass.parseDouble(tester.resolveVariable(this.height))!;
-    var width = JsonClass.parseDouble(tester.resolveVariable(this.width))!;
+    final height = JsonClass.parseDouble(tester.resolveVariable(this.height))!;
+    final width = JsonClass.parseDouble(tester.resolveVariable(this.width))!;
 
-    var name = "$id('$height', '$width')";
+    final name = "$id('$height', '$width')";
 
     log(
       name,

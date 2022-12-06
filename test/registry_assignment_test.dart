@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   test('assert_window_size', () {
     TestDesktopHelper.registerTestSteps();
-    var availStep = TestStepRegistry.instance.getAvailableTestStep(
+    final availStep = TestStepRegistry.instance.getAvailableTestStep(
       'assert_window_size',
     )!;
 
@@ -25,7 +25,7 @@ void main() {
 
   test('set_window_size', () {
     TestDesktopHelper.registerTestSteps();
-    var availStep = TestStepRegistry.instance.getAvailableTestStep(
+    final availStep = TestStepRegistry.instance.getAvailableTestStep(
       'set_window_size',
     )!;
 
