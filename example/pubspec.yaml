@@ -1,13 +1,13 @@
 name: 'example'
 description: "Example application for the automated testing framework's desktop plugin"
 publish_to: 'none'
-version: '1.0.0+19'
+version: '1.0.0+20'
 
 environment: 
   sdk: '>=2.18.0 <3.0.0'
 
 dependencies: 
-  automated_testing_framework: '^4.0.7+8'
+  automated_testing_framework: '^4.0.7+9'
   automated_testing_framework_example: '^2.2.5'
   automated_testing_framework_plugin_desktop: 
     path: '..'
