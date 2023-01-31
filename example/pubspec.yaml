@@ -1,32 +1,32 @@
 name: 'example'
 description: "Example application for the automated testing framework's desktop plugin"
 publish_to: 'none'
-version: '1.0.0+26'
+version: '1.0.0+27'
 
-environment:
+environment: 
   sdk: '>=2.19.0 <4.0.0'
 
-dependencies:
-  automated_testing_framework: '^5.0.0'
-  automated_testing_framework_example: '^2.3.1'
-  automated_testing_framework_plugin_desktop:
+dependencies: 
+  automated_testing_framework: '^5.0.0+1'
+  automated_testing_framework_example: '^2.3.2'
+  automated_testing_framework_plugin_desktop: 
     path: '..'
-  flutter:
+  flutter: 
     sdk: 'flutter'
-  logging: '^1.1.0'
+  logging: '^1.1.1'
 
-dev_dependencies:
-  flutter_test:
+dev_dependencies: 
+  flutter_test: 
     sdk: 'flutter'
   flutter_lints: '^2.0.1'
 
-flutter:
+flutter: 
   uses-material-design: true
-  assets:
+  assets: 
     - 'assets/tests/'
     - 'assets/all_tests.json'
 
-ignore_updates:
+ignore_updates: 
   - 'archive'
   - 'async'
   - 'boolean_selector'
