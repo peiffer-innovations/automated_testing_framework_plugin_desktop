@@ -1,17 +1,17 @@
 name: 'automated_testing_framework_plugin_desktop'
 description: 'Library to use provide desktop related functions.'
 homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_desktop'
-version: '2.0.1+5'
+version: '2.0.1+6'
 
 environment: 
   sdk: '>=2.19.0 <4.0.0'
 
 dependencies: 
-  automated_testing_framework: '^5.0.0+5'
+  automated_testing_framework: '^5.0.0+6'
   desktop_window: '^0.4.0'
   flutter: 
     sdk: 'flutter'
-  json_class: '^2.1.5+2'
+  json_class: '^2.1.6+1'
   static_translations: '^2.1.2+5'
 
 dev_dependencies: 
